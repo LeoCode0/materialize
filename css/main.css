@@ -34,7 +34,7 @@ header ul a{
 }
 
 .header-main-pic{
-    /* width: 100%; */
+    width: 100%;
     height: 400px;
     background-image: url("../assets/img/Banner.jpg");   
     background-repeat: no-repeat;
@@ -42,6 +42,24 @@ header ul a{
     background-size: cover;
 }
 
-.buscador{
-    margin-bottom: 2px;
+.input-field.input-container{
+    height: 100px;
+    float: none;
+    display: flex;
+    margin: 0 auto;
+}
+
+.input-field > #search{
+    margin-top: 25px;
+}
+
+.input-container i{
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+footer.page-footer{
+    height: 80px;
+    background-color: grey;
+    bottom: 0;
 }
